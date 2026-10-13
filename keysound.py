@@ -4,7 +4,7 @@ from pynput import keyboard
 
 folder = os.path.dirname(os.path.abspath(__file__))
 pygame.mixer.init()
-sound = pygame.mixer.Sound(os.path.join(folder, "fahhh.mp3"))
+sound = pygame.mixer.Sound(os.path.join(folder, "ElevenLabs.mp3"))
 
 pressed = set()
 
